@@ -28,6 +28,6 @@ public class GamePanel extends JPanel{
 
         super.paintComponent(g);
 
-        g.fillRect(0 + xDelta,0 + yDelta,200,200);
+        g.fillRect(0 + xDelta,0 + yDelta,200,100);
     }
 }
