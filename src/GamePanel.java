@@ -6,19 +6,7 @@ import java.awt.event.KeyEvent;
 
 public class GamePanel extends JPanel{
     public GamePanel() {
-        addKeyListener(new KeyListener() {
-                public void keyTyped(KeyEvent e){
-                    
-                }
-                public void keyPressed(KeyEvent e){
-
-                }
-                public void keyReleased(KeyEvent e) {
-                    // TODO Auto-generated method stub
-                    
-                }
-            }
-        );
+        addKeyListener(new KeyboardInputs());
     }
     public void paintComponent(Graphics g){
 
