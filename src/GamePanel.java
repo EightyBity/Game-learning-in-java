@@ -10,7 +10,6 @@ public class GamePanel extends JPanel{
     private float xDelta = 100, yDelta = 100;
     private float xDir = 1f, yDir = 1f;
 
-    private long LastCheck = 0;
     private Color color = new Color(150, 20, 90);
     private Random random;
     public GamePanel() {
