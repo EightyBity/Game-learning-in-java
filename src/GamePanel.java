@@ -1,7 +1,5 @@
 import javax.swing.JPanel;
 import java.awt.Graphics;
-import java.awt.event.KeyListener;
-import java.awt.event.KeyEvent;
 
 
 public class GamePanel extends JPanel{
